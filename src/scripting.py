@@ -1,36 +1,26 @@
+## importing stuff
 import argparse
-
-#initialise the parser
-parser = argparse.ArgumentParser()
-#add arguments
-parser.add_argument("--name", type=str) #this gives the reciever options for the function ?
-# parse the arguments from the command line 
-args = parser.parse_args()
-
-#print argument
-#print(args)
-#print(args.name)
-
 
 #### Turn the above steps into a function:
 # this function takes no input, just input from the command line in terminal
 def input_parse():
+    #initialise the parser
     parser = argparse.ArgumentParser()
     #add arguments
-    parser.add_argument("--name", type=str) #this gives the reciever options for the function ?
+    parser.add_argument("--name", type=str, default= "Kevin") #this gives the reciever options for the function ?
+    parser.add_argument("--age", type= int) #age argument 
     # parse the arguments from the command line 
     args = parser.parse_args()
-    #get the name
-    name = args.name
-
+    
     #define a return value
-    return name
+    return args #returning all arguments (age and name)
 
 
 
 #create simple function
-def hello(name):
+def hello(name, age):
     print("hello my name is " + name + "!!")
+    print("I am "+ str(age) + " years old") #we're trying to do string concatenating, but we have integers as age, so we wrap it in a str()
 
 #hello(args.name)
 
@@ -38,9 +28,9 @@ def hello(name):
 #### define a main function (KEY)
 def main():
     # run the input parse to get name
-    name = input_parse()
+    args = input_parse()
     # pass name to hello()
-    hello(name)
+    hello(args.name, args.age) #there is nothing in these until they are specified in terminal
 
 main()
 
