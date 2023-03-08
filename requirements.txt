@@ -1,15 +1,9 @@
 matplotlib
-<<<<<<< HEAD
 numpy
 pandas
 scikit_learn
 seaborn
-<<<<<<< HEAD
 utils
 #classifier_utils
-=======
-=======
 gensim
 scikit-learn
->>>>>>> e742d4f9f92e9ca592f88f983bfb2f85bfbe5b7d
->>>>>>> fdccdba5f4665aa488d2a3e1852ab4aa5f6d1ac8
