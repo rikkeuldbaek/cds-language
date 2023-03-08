@@ -1,5 +1,10 @@
 matplotlib
+<<<<<<< HEAD
 numpy
 pandas
 scikit_learn
 seaborn
+=======
+gensim
+scikit-learn
+>>>>>>> e742d4f9f92e9ca592f88f983bfb2f85bfbe5b7d
