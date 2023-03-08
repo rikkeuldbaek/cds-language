@@ -7,3 +7,7 @@ utils
 #classifier_utils
 gensim
 scikit-learn
+
+#for scripting
+spacy
+
