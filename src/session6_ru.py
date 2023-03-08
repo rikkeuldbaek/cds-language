@@ -42,6 +42,10 @@ if __name__ == "__main__":
 ### deactivate environment
 # 7) deactivate 
 
+##### Note when you make a virtual environment, it takes up a lot of space
+# so dont push it to github and add it to gitignore. 
+#when you make a repo on github and add a gitignore (python), it automatically
+# git ignores the virtual environment
 
 ###this is important bc: the user only needs python 3 installed to run this :)
 ### wuhu reproducibility
