@@ -1,5 +1,6 @@
 matplotlib
 numpy
+<<<<<<< HEAD
 pandas
 scikit_learn
 seaborn
@@ -11,3 +12,6 @@ scikit-learn
 #for scripting
 spacy
 
+=======
+tensorflow-cpu
+>>>>>>> 0c941bf7c04ce8580d248137a1c19ec3e61110e4
