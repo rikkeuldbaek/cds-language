@@ -1,8 +1,5 @@
 matplotlib
 numpy
-<<<<<<< HEAD
-
-pandas
 scikit_learn
 seaborn
 utils
@@ -16,7 +13,4 @@ spacy
 # tensorflow
 tensorflow-cpu
 tensorflow-datasets
-=======
 pandas
-tensorflow-cpu
->>>>>>> 8da0a9d10906d52fdff933bfa421982e8294fa86
