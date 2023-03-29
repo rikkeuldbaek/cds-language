@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 matplotlib
 numpy
 scikit_learn
@@ -14,3 +15,8 @@ spacy
 tensorflow-cpu
 tensorflow-datasets
 pandas
+=======
+bertopic
+scikit-learn
+pandas
+>>>>>>> 52da4eb463d16bfca02f995c5dad9056e2bfb02c
