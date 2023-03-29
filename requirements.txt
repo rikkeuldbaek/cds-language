@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 8359e71870311fde9f67df48679af812234d8423
 matplotlib
 numpy
 scikit_learn
@@ -15,6 +19,7 @@ spacy
 tensorflow-cpu
 tensorflow-datasets
 pandas
+<<<<<<< HEAD
 
 #pip install pipreqs
 
@@ -27,3 +32,10 @@ pandas
 bertopic
 scikit-learn
 pandas
+=======
+=======
+bertopic
+scikit-learn
+pandas
+>>>>>>> 52da4eb463d16bfca02f995c5dad9056e2bfb02c
+>>>>>>> 8359e71870311fde9f67df48679af812234d8423
