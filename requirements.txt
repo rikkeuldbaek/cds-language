@@ -1,3 +1,4 @@
+
 matplotlib
 numpy
 scikit_learn
@@ -13,4 +14,16 @@ spacy
 # tensorflow
 tensorflow-cpu
 tensorflow-datasets
+pandas
+
+#pip install pipreqs
+
+# navigate to over all folder and find required packages
+#pipreqs .
+
+# navigate to a certain and find required packages
+#pipreqs src #create a requirements file based the packages this folder uses
+
+bertopic
+scikit-learn
 pandas
