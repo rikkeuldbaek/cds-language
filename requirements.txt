@@ -1,41 +1,4 @@
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> 8359e71870311fde9f67df48679af812234d8423
-matplotlib
-numpy
-scikit_learn
-seaborn
-utils
-#classifier_utils
-gensim
-scikit-learn
-
-#for scripting
-spacy
-
-# tensorflow
-tensorflow-cpu
-tensorflow-datasets
-pandas
-<<<<<<< HEAD
-
-#pip install pipreqs
-
-# navigate to over all folder and find required packages
-#pipreqs .
-
-# navigate to a certain and find required packages
-#pipreqs src #create a requirements file based the packages this folder uses
 
 bertopic
 scikit-learn
 pandas
-=======
-=======
-bertopic
-scikit-learn
-pandas
->>>>>>> 52da4eb463d16bfca02f995c5dad9056e2bfb02c
->>>>>>> 8359e71870311fde9f67df48679af812234d8423
